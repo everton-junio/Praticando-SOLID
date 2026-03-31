@@ -1,4 +1,4 @@
-package org.example;
+package org.SOLID;
 
 
 public class SingleResponsability {

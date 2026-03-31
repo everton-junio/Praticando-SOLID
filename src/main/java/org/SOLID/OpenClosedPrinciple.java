@@ -1,4 +1,4 @@
-package org.example;
+package org.SOLID;
 
 public class OpenClosedPrinciple {
     static void main(){
@@ -10,6 +10,11 @@ public class OpenClosedPrinciple {
         displayPagamento.processarPagamento();
         displayPagamento2.processarPagamento();
         displayPagamento3.processarPagamento();
+
+        //outra forma
+
+        Pagamento pagamento = new Pix();
+        pagamento.processarPagamento();
     }
 }
 class DisplayPagamento{
